@@ -4128,7 +4128,7 @@ case 'linkgc':
                break
         case 'info':
         case 'infobot':  // Jangan Di Ubah Plise
-               gopeynya = 'https://i.postimg.cc/Dzj553cR/RutzBot.jpg'
+               gopeynya = 'https://i.postimg.cc/Vsxz4XG3/IMG-20211016-WA0347.jpg'
                thankslort = `*[━━━━ INFO BOT ━━━━]*\n*➤ Nama : OCHOBOTZ*\n*➤ Pukul : ${moment().utcOffset('+0700').format('HH:mm')}*\n*➤ Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*➤ Tipe : Node Js*\n*➤ Version : 3.3*\n*[━━━━━━━━━━━━━━━━━━]*`
              dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: thankslort })
              break
