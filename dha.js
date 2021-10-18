@@ -1502,7 +1502,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'sewabot':
               gopeynya = 'https://i.postimg.cc/MHcgVrJv/IMG-20211018-112506.jpg'
               teksnya = `*[ PRICE LIST ]*
-*Sewa Bot Xrutz ON 24 Jam*
+*Sewa ᴼᶜᴴᴼᴮᴼᵀᶻ☽ ON 24 Jam*
 *1 Hari :* 2K
 *1 Minggu :* 10K
 *1 Bulan :* 20K
