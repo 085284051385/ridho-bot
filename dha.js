@@ -841,7 +841,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ➤ *Nama :* ${pushname}
 ➤ *Nomor :* @${sender.split('@')[0]}
 ➤ *Status :* ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}
-➤ *Baterai :* ${baterai}%
 
 「 *INFO BOT* 」
 ➤ *Nama :* *OCHOBOTZ*
