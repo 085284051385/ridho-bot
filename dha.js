@@ -849,6 +849,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ➤ *Owner :* *RIDHO_OFC*
 ➤ *Aktif :* ${runtime(process.uptime())}
 ➤ *Prefix :* 『> ${prefix} <』
+➤ *Baterai :* ${baterai}%
 
 「 *LIST MENU* 」
 ➤ *#Ownermenu*
