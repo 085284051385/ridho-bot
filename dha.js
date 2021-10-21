@@ -865,7 +865,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
 *Request fitur?* Ketik ${prefix}owner Ya!
 *Sewa bot?* Chat wa.me/6285284051385`
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES BOT'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText: 'SEWA BOT'},type:1}]
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES BOT'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SEWA BOT'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
