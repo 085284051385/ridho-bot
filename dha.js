@@ -1512,7 +1512,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://i.postimg.cc/MHcgVrJv/IMG-20211018-112506.jpg'
+gopeynya = 'https://i.postimg.cc/5yL4Vfsx/20211021-123034.jpg'
 teksnya = `*[ PAYMENT ]*
 *Gopay :* 083871990243
 *Dana :* 083871990243
