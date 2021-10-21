@@ -955,7 +955,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
            }
                listmsg(from, `${ucapanWaktu}`,  `*Hallo Kak* ${pushname}\nCek Price Role Disini!`, list)
                break
-       case 'monitor':
+       case 'store':
                list = []
                listmenu = [`buttonstik`,`buttondl`,`buttonown`,`buttonpen`,`buttongame`,`buttongc`,`buttonwibu`]
                listmenuu = [`STICKER MENU`,`DOWNLOAD MENU`,`OWNER MENU`,`NULIS MENU`,`GAME MENU`,`GRUP MENU`,`WIBU MENU`]
@@ -1497,7 +1497,6 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
 }
               mentions(txt, men, true)
               break
-       case 'store':
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
