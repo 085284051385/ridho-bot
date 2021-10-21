@@ -865,7 +865,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
 *Request fitur?* Ketik ${prefix}owner Ya!
 *Sewa bot?* Chat wa.me/6285284051385`
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES BOT'},type:1},{buttonId:`${prefix}buypremium`,buttonText:{displayText:'SEWA BOT'},type:1}]
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES BOT'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SEWA BOT'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
@@ -955,7 +955,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
            }
                listmsg(from, `${ucapanWaktu}`,  `*Hallo Kak* ${pushname}\nCek Price Role Disini!`, list)
                break
-       case 'store':
+       case 'monitor':
                list = []
                listmenu = [`buttonstik`,`buttondl`,`buttonown`,`buttonpen`,`buttongame`,`buttongc`,`buttonwibu`]
                listmenuu = [`STICKER MENU`,`DOWNLOAD MENU`,`OWNER MENU`,`NULIS MENU`,`GAME MENU`,`GRUP MENU`,`WIBU MENU`]
@@ -1497,6 +1497,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
 }
               mentions(txt, men, true)
               break
+       case 'store':
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
