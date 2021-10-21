@@ -1500,7 +1500,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://i.postimg.cc/MHcgVrJv/IMG-20211018-112506.jpg'
+              gopeynya = 'https://i.postimg.cc/5yL4Vfsx/20211021-123034.jpg'
               teksnya = `*[ PRICE LIST ]*
 *Sewa ᴼᶜᴴᴼᴮᴼᵀᶻ☽ ON 24 Jam*
 *1 Hari :* 2K
